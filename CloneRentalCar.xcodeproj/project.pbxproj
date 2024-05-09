@@ -14,6 +14,8 @@
 		E95A36852BEC7DC80010ACE1 /* CloneRentalCarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A36842BEC7DC80010ACE1 /* CloneRentalCarTests.swift */; };
 		E95A368F2BEC7DC80010ACE1 /* CloneRentalCarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A368E2BEC7DC80010ACE1 /* CloneRentalCarUITests.swift */; };
 		E95A36912BEC7DC80010ACE1 /* CloneRentalCarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A36902BEC7DC80010ACE1 /* CloneRentalCarUITestsLaunchTests.swift */; };
+		E95A36AA2BEC8D690010ACE1 /* MainTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A36A92BEC8D690010ACE1 /* MainTabBarView.swift */; };
+		E95A36AC2BEC90C70010ACE1 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A36AB2BEC90C70010ACE1 /* ExploreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		E95A368A2BEC7DC80010ACE1 /* CloneRentalCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloneRentalCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95A368E2BEC7DC80010ACE1 /* CloneRentalCarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneRentalCarUITests.swift; sourceTree = "<group>"; };
 		E95A36902BEC7DC80010ACE1 /* CloneRentalCarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneRentalCarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E95A36A82BEC8AFE0010ACE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E95A36A92BEC8D690010ACE1 /* MainTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarView.swift; sourceTree = "<group>"; };
+		E95A36AB2BEC90C70010ACE1 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +99,11 @@
 		E95A36722BEC7DC40010ACE1 /* CloneRentalCar */ = {
 			isa = PBXGroup;
 			children = (
+				E95A36A82BEC8AFE0010ACE1 /* Info.plist */,
+				E95A36A02BEC8A530010ACE1 /* App */,
+				E95A369F2BEC8A500010ACE1 /* Core */,
+				E95A369E2BEC8A440010ACE1 /* Models */,
+				E95A369D2BEC8A3D0010ACE1 /* Service */,
 				E95A36732BEC7DC40010ACE1 /* CloneRentalCarApp.swift */,
 				E95A36752BEC7DC40010ACE1 /* ContentView.swift */,
 				E95A36772BEC7DC80010ACE1 /* Assets.xcassets */,
@@ -125,6 +135,92 @@
 				E95A36902BEC7DC80010ACE1 /* CloneRentalCarUITestsLaunchTests.swift */,
 			);
 			path = CloneRentalCarUITests;
+			sourceTree = "<group>";
+		};
+		E95A369D2BEC8A3D0010ACE1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E95A369E2BEC8A440010ACE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E95A369F2BEC8A500010ACE1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E95A36A72BEC8A7E0010ACE1 /* Components */,
+				E95A36A62BEC8A7B0010ACE1 /* Explore */,
+				E95A36A52BEC8A790010ACE1 /* Favorite */,
+				E95A36A42BEC8A770010ACE1 /* Inbox */,
+				E95A36A32BEC8A740010ACE1 /* More */,
+				E95A36A22BEC8A710010ACE1 /* TabBar */,
+				E95A36A12BEC8A6E0010ACE1 /* Trips */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E95A36A02BEC8A530010ACE1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E95A36A12BEC8A6E0010ACE1 /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Trips;
+			sourceTree = "<group>";
+		};
+		E95A36A22BEC8A710010ACE1 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E95A36A92BEC8D690010ACE1 /* MainTabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		E95A36A32BEC8A740010ACE1 /* More */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		E95A36A42BEC8A770010ACE1 /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Inbox;
+			sourceTree = "<group>";
+		};
+		E95A36A52BEC8A790010ACE1 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		E95A36A62BEC8A7B0010ACE1 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				E95A36AB2BEC90C70010ACE1 /* ExploreView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		E95A36A72BEC8A7E0010ACE1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +354,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E95A36762BEC7DC40010ACE1 /* ContentView.swift in Sources */,
+				E95A36AA2BEC8D690010ACE1 /* MainTabBarView.swift in Sources */,
+				E95A36AC2BEC90C70010ACE1 /* ExploreView.swift in Sources */,
 				E95A36742BEC7DC40010ACE1 /* CloneRentalCarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,9 +522,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CloneRentalCar/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CloneRentalCar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -452,9 +550,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CloneRentalCar/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CloneRentalCar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
