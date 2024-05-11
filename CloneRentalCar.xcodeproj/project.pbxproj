@@ -24,6 +24,7 @@
 		E95A36BB2BEF66370010ACE1 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A36BA2BEF66370010ACE1 /* Car.swift */; };
 		E95A36BE2BEF6A730010ACE1 /* CustomCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A36BD2BEF6A730010ACE1 /* CustomCarView.swift */; };
 		E95A36C02BEF754D0010ACE1 /* TopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A36BF2BEF754D0010ACE1 /* TopViewModel.swift */; };
+		E95A36C32BEF770E0010ACE1 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A36C22BEF770E0010ACE1 /* FavoriteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		E95A36BA2BEF66370010ACE1 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		E95A36BD2BEF6A730010ACE1 /* CustomCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCarView.swift; sourceTree = "<group>"; };
 		E95A36BF2BEF754D0010ACE1 /* TopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewModel.swift; sourceTree = "<group>"; };
+		E95A36C22BEF770E0010ACE1 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +224,7 @@
 		E95A36A52BEC8A790010ACE1 /* Favorite */ = {
 			isa = PBXGroup;
 			children = (
+				E95A36C12BEF77010010ACE1 /* Views */,
 			);
 			path = Favorite;
 			sourceTree = "<group>";
@@ -275,6 +278,14 @@
 			isa = PBXGroup;
 			children = (
 				E95A36BD2BEF6A730010ACE1 /* CustomCarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E95A36C12BEF77010010ACE1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E95A36C22BEF770E0010ACE1 /* FavoriteView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -417,6 +428,7 @@
 				E95A36762BEC7DC40010ACE1 /* ContentView.swift in Sources */,
 				E95A36B12BECC6FD0010ACE1 /* CustomSearchBar.swift in Sources */,
 				E95A36AA2BEC8D690010ACE1 /* MainTabBarView.swift in Sources */,
+				E95A36C32BEF770E0010ACE1 /* FavoriteView.swift in Sources */,
 				E95A36B72BEF522A0010ACE1 /* ExploreViewModel.swift in Sources */,
 				E95A36B32BECC9920010ACE1 /* Brand.swift in Sources */,
 				E95A36AC2BEC90C70010ACE1 /* ExploreView.swift in Sources */,
