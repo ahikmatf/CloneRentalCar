@@ -24,6 +24,7 @@ struct ExploreView: View {
                         CustomSearchBar()
                         Spacer().frame(height: 60)
                         PopularBrandsView(viewModel: viewModel)
+                        TopViewModel(viewModel: viewModel)
                     }
                 }
             }

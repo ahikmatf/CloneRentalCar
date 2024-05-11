@@ -21,6 +21,9 @@
 		E95A36B32BECC9920010ACE1 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A36B22BECC9920010ACE1 /* Brand.swift */; };
 		E95A36B72BEF522A0010ACE1 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A36B62BEF522A0010ACE1 /* ExploreViewModel.swift */; };
 		E95A36B92BEF58530010ACE1 /* PopularBrandsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A36B82BEF58530010ACE1 /* PopularBrandsView.swift */; };
+		E95A36BB2BEF66370010ACE1 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A36BA2BEF66370010ACE1 /* Car.swift */; };
+		E95A36BE2BEF6A730010ACE1 /* CustomCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A36BD2BEF6A730010ACE1 /* CustomCarView.swift */; };
+		E95A36C02BEF754D0010ACE1 /* TopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A36BF2BEF754D0010ACE1 /* TopViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		E95A36B22BECC9920010ACE1 /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
 		E95A36B62BEF522A0010ACE1 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
 		E95A36B82BEF58530010ACE1 /* PopularBrandsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularBrandsView.swift; sourceTree = "<group>"; };
+		E95A36BA2BEF66370010ACE1 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		E95A36BD2BEF6A730010ACE1 /* CustomCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCarView.swift; sourceTree = "<group>"; };
+		E95A36BF2BEF754D0010ACE1 /* TopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				E95A36B22BECC9920010ACE1 /* Brand.swift */,
+				E95A36BA2BEF66370010ACE1 /* Car.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -231,6 +238,7 @@
 		E95A36A72BEC8A7E0010ACE1 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				E95A36BC2BEF6A640010ACE1 /* Views */,
 				E95A36AD2BECBC7A0010ACE1 /* ViewModifiers */,
 			);
 			path = Components;
@@ -250,6 +258,7 @@
 				E95A36AB2BEC90C70010ACE1 /* ExploreView.swift */,
 				E95A36B02BECC6FD0010ACE1 /* CustomSearchBar.swift */,
 				E95A36B82BEF58530010ACE1 /* PopularBrandsView.swift */,
+				E95A36BF2BEF754D0010ACE1 /* TopViewModel.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -260,6 +269,14 @@
 				E95A36B62BEF522A0010ACE1 /* ExploreViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E95A36BC2BEF6A640010ACE1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E95A36BD2BEF6A730010ACE1 /* CustomCarView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -393,7 +410,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E95A36B92BEF58530010ACE1 /* PopularBrandsView.swift in Sources */,
+				E95A36BE2BEF6A730010ACE1 /* CustomCarView.swift in Sources */,
 				E95A36AF2BECBC8F0010ACE1 /* NavigationStackModifier.swift in Sources */,
+				E95A36BB2BEF66370010ACE1 /* Car.swift in Sources */,
+				E95A36C02BEF754D0010ACE1 /* TopViewModel.swift in Sources */,
 				E95A36762BEC7DC40010ACE1 /* ContentView.swift in Sources */,
 				E95A36B12BECC6FD0010ACE1 /* CustomSearchBar.swift in Sources */,
 				E95A36AA2BEC8D690010ACE1 /* MainTabBarView.swift in Sources */,
