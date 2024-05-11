@@ -18,6 +18,9 @@
 		E95A36AC2BEC90C70010ACE1 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A36AB2BEC90C70010ACE1 /* ExploreView.swift */; };
 		E95A36AF2BECBC8F0010ACE1 /* NavigationStackModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A36AE2BECBC8F0010ACE1 /* NavigationStackModifier.swift */; };
 		E95A36B12BECC6FD0010ACE1 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A36B02BECC6FD0010ACE1 /* CustomSearchBar.swift */; };
+		E95A36B32BECC9920010ACE1 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A36B22BECC9920010ACE1 /* Brand.swift */; };
+		E95A36B72BEF522A0010ACE1 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A36B62BEF522A0010ACE1 /* ExploreViewModel.swift */; };
+		E95A36B92BEF58530010ACE1 /* PopularBrandsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A36B82BEF58530010ACE1 /* PopularBrandsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		E95A36AB2BEC90C70010ACE1 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		E95A36AE2BECBC8F0010ACE1 /* NavigationStackModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackModifier.swift; sourceTree = "<group>"; };
 		E95A36B02BECC6FD0010ACE1 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		E95A36B22BECC9920010ACE1 /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		E95A36B62BEF522A0010ACE1 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		E95A36B82BEF58530010ACE1 /* PopularBrandsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularBrandsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +157,7 @@
 		E95A369E2BEC8A440010ACE1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E95A36B22BECC9920010ACE1 /* Brand.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -215,8 +222,8 @@
 		E95A36A62BEC8A7B0010ACE1 /* Explore */ = {
 			isa = PBXGroup;
 			children = (
-				E95A36AB2BEC90C70010ACE1 /* ExploreView.swift */,
-				E95A36B02BECC6FD0010ACE1 /* CustomSearchBar.swift */,
+				E95A36B52BEF52010010ACE1 /* ViewModels */,
+				E95A36B42BEF51F40010ACE1 /* Views */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -235,6 +242,24 @@
 				E95A36AE2BECBC8F0010ACE1 /* NavigationStackModifier.swift */,
 			);
 			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		E95A36B42BEF51F40010ACE1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E95A36AB2BEC90C70010ACE1 /* ExploreView.swift */,
+				E95A36B02BECC6FD0010ACE1 /* CustomSearchBar.swift */,
+				E95A36B82BEF58530010ACE1 /* PopularBrandsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E95A36B52BEF52010010ACE1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E95A36B62BEF522A0010ACE1 /* ExploreViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,10 +392,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E95A36B92BEF58530010ACE1 /* PopularBrandsView.swift in Sources */,
 				E95A36AF2BECBC8F0010ACE1 /* NavigationStackModifier.swift in Sources */,
 				E95A36762BEC7DC40010ACE1 /* ContentView.swift in Sources */,
 				E95A36B12BECC6FD0010ACE1 /* CustomSearchBar.swift in Sources */,
 				E95A36AA2BEC8D690010ACE1 /* MainTabBarView.swift in Sources */,
+				E95A36B72BEF522A0010ACE1 /* ExploreViewModel.swift in Sources */,
+				E95A36B32BECC9920010ACE1 /* Brand.swift in Sources */,
 				E95A36AC2BEC90C70010ACE1 /* ExploreView.swift in Sources */,
 				E95A36742BEC7DC40010ACE1 /* CloneRentalCarApp.swift in Sources */,
 			);
